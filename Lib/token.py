@@ -58,12 +58,16 @@ RARROW = 51
 ELLIPSIS = 52
 COLONEQUAL = 53
 OP = 54
+AWAIT = 55
+ASYNC = 56
+TYPE_IGNORE = 57
+TYPE_COMMENT = 58
 # These aren't used by the C tokenizer but are needed for tokenize.py
-ERRORTOKEN = 55
-COMMENT = 56
-NL = 57
-ENCODING = 58
-N_TOKENS = 59
+ERRORTOKEN = 59
+COMMENT = 60
+NL = 61
+ENCODING = 62
+N_TOKENS = 63
 # Special definitions for cooperation with parser
 NT_OFFSET = 256
 
